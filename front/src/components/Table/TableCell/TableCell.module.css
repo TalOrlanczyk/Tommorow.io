@@ -1,0 +1,67 @@
+/* Base Cell Style */
+.cell {
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--table-border);
+}
+
+/* Cell Types */
+.cellDefault {
+  color: var(--text-secondary);
+}
+
+.cellName {
+  color: var(--text-primary);
+  font-weight: var(--font-weight-medium);
+}
+
+.cellLocation {
+  color: var(--text-secondary);
+  font-family: monospace;
+  letter-spacing: -0.5px;
+
+}
+
+.cellParameter {
+  color: var(--text-primary);
+  text-transform: capitalize;
+}
+
+.cellOperator {
+  color: var(--text-muted);
+  font-family: monospace;
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0.5px;
+}
+
+.cellValue {
+  color: var(--text-secondary);
+  font-family: monospace;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.cellStatus {
+  color: var(--text-secondary);
+}
+
+.cellTimestamp {
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+
+/* Timestamp Style */
+.timestamp {
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+  white-space: nowrap;
+}
+
+.headerCell {
+  color: var(--text-primary);
+  font-weight: var(--font-weight-semibold);
+  padding: var(--spacing-md);
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+/* Table Body */
+.tableBody td {
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--table-border);
+}
+
+.tableBody tr:nth-child(odd) {
+  background-color: var(--table-row-odd);
+}
+
+.tableBody tr:nth-child(even) {
+  background-color: var(--table-row-even);
+}
+
+.tableBody tr:hover {
+  background-color: var(--table-row-hover);
+}

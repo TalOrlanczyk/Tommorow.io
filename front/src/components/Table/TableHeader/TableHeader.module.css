@@ -1,0 +1,21 @@
+/* Table Header */
+.tableHead {
+    background-color: var(--table-header-bg);
+    border-bottom: 2px solid var(--table-border);
+    text-align: center;
+}
+
+/* Sticky Header */
+.stickyHeader {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--table-bg);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.stickyHeader th {
+    background-color: var(--table-bg);
+    text-align: center;
+}

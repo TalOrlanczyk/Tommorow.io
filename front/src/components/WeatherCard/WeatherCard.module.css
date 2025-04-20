@@ -1,0 +1,23 @@
+.weatherCard {
+    background-color: var(--table-bg);
+    border-radius: var(--radius-default);
+    padding: var(--spacing-md);
+    margin: var(--spacing-sm);
+    box-shadow: var(--shadow-default);
+    min-width: 150px;
+    text-align: center;
+  }
+  
+  .weatherCard h3 {
+    margin: 0;
+    color: var(--text-primary);
+    font-size: var(--font-size-md);
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  .weatherValue {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-secondary);
+    margin: 0;
+  }

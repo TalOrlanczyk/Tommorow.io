@@ -1,0 +1,7 @@
+
+/* Table Base */
+.table {
+  width: 90vw;
+  border-collapse: collapse;
+  background-color: var(--table-bg);
+}

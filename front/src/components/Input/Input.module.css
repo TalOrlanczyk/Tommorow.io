@@ -1,0 +1,31 @@
+
+.input {
+    background-color: var(--bg-color, #1a1a1a);
+    color: var(--text-color, rgba(255, 255, 255, 0.87));
+    border: 1px solid var(--border-color, #646cff);
+    border-radius: var(--radius-default, 8px);
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    width: 100%;
+    appearance: none;
+    box-sizing: border-box;
+  }
+  
+  .input:hover {
+    border-color: var(--border-hover-color, #747bff);
+  }
+  
+  .input:focus {
+    border-color: var(--border-focus-color, #535bf2);
+    outline: none;
+  }
+
+
+.input[type="number"]::-webkit-inner-spin-button,
+.input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
